@@ -3,6 +3,7 @@ export enum Model {
   LLAMA_3_8B_INSTRUCT_Q4F16_1 = "Llama-3-8B-Instruct-q4f16_1",
   TINYLAMA_1_1B_CHAT_V0_4_Q4F32_1_1K = "TinyLlama-1.1B-Chat-v0.4-q4f32_1-1k",
   PHI1_5_Q4F16_1_1K = "Phi1.5-q4f16_1-1k",
+  GEMMA_2B_IT_Q4f16_1= "gemma-2b-it-q4f16_1"
 }
 
 export const MODEL_DESCRIPTIONS: {
@@ -24,4 +25,8 @@ export const MODEL_DESCRIPTIONS: {
     displayName: "Phi 1.5",
     icon: "🦙",
   },
+  "gemma-2b-it-q4f16_1": {
+    displayName: "Gemma 2b-it",
+    icon: "💎"
+  }
 };
