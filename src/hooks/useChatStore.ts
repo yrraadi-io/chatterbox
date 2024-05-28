@@ -26,7 +26,7 @@ interface State {
 
 const useChatStore = create<State>((set) => ({
   // Model
-  selectedModel: Model.TINYLAMA_1_1B_CHAT_V0_4_Q4F32_1_1K,
+  selectedModel: Model.GEMMA_2B_IT_Q4f16_1,
   setSelectedModel: (model: Model) => set({ selectedModel: model }),
 
   // User input
